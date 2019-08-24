@@ -1,5 +1,5 @@
 from sqlalchemy import Table, Column, Integer, String, MetaData, ForeignKey
-from system.db import Base
+from utils.db import Base
 
 class Language(Base):
     __tablename__ = 'languages'
